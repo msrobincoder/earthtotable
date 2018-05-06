@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- this file displays the colors used in the earthtotable app -->
 <resources>
     <color name="colorPrimary">#5da189</color>
     <color name="colorPrimaryDark">#4d9171</color>

@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- this is the layout file for the earthtotable app -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,12 +42,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="hand picked for you"
-        android:textStyle="bold" />
+
 
 
     <!-- create image view for food basket to be displayed -->
@@ -61,15 +58,15 @@
         <ImageView
             android:id="@+id/veggies_basket"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="423dp"
             android:src="@drawable/veggies_basket" />
 
         <Button
-            android:id="@+id/findMore"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Find Out More"
-            android:textStyle="bold" />
+            android:id="@+id/button"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:background="#73ff40"
+            android:text="Find out More!" />
 
 
     </LinearLayout>
