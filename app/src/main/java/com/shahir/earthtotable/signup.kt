@@ -6,21 +6,16 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_findoutmore.*
 import kotlinx.android.synthetic.main.activity_main.*
 
-class findoutmoreActivity : AppCompatActivity() {
+class signupActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_findoutmore)
+        setContentView(R.layout.activity_signupnow)
 
-        //set listener for signup now button to go to sign up screen
+        // set listener for signup button to go to next screen
         btn_signup.setOnClickListener {
-
-            val intent = Intent(this, signupnow::class.java)
+            val intent = Intent(this, findoutmoreActivity::class.java)
             startActivity(intent)
-        }//end btn_signupnow
-    }//oncreate
-
-
-}// end findoutmoreActivity
-
-
+        }
+    }
+}

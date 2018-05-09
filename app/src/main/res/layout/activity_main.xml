@@ -33,7 +33,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="44dp"
-        android:text="From Earth To Table"
+        android:text="@string/from_earth_to_table"
         android:textAlignment="center"
         android:textColor="#2fdd52"
         android:textSize="18sp"
@@ -67,7 +67,7 @@
             android:layout_width="271dp"
             android:layout_height="wrap_content"
             android:background="#73ff40"
-            android:text="Find out More!" />
+            android:text="@string/find_out_more" />
 
 
     </LinearLayout>

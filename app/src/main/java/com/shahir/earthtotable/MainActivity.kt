@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity(){
         btn_findoutmore.setOnClickListener {
             val intent = Intent(this, findoutmoreActivity::class.java)
             startActivity(intent)
-            }
-        }
+            }//end btn_findoutmore
+        }//end OnCreate
 
-    }
+    }//end Main
 

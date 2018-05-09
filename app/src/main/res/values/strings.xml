@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">earthtotable</string>
     <string name="find_more">Find more</string>
+    <string name="join_the_locavore_movement">Join the locavore movement!</string>
+    <string name="enter_your_zip_code">enter your zip code</string>
+    <string name="find_out_more">Find out More!</string>
+    <string name="sign_up">Sign Up!</string>
+    <string name="from_earth_to_table">From Earth To Table</string>
 </resources>
