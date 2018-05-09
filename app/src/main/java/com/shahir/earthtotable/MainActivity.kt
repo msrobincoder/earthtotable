@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity(){
         setContentView(R.layout.activity_main)
 
         // set listener for findoutmore button to go to next screen
-        Btn_findoutmore.setOnClickListener {
+        btn_findoutmore.setOnClickListener {
             val intent = Intent(this, findoutmoreActivity::class.java)
             startActivity(intent)
             }

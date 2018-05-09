@@ -63,7 +63,7 @@
             android:src="@drawable/veggies_basket" />
 
         <Button
-            android:id="@+id/Btn_findoutmore"
+            android:id="@+id/btn_findoutmore"
             android:layout_width="271dp"
             android:layout_height="wrap_content"
             android:background="#73ff40"
