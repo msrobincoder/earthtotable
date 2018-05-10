@@ -60,7 +60,7 @@
             android:id="@+id/veggies_basket"
             android:layout_width="wrap_content"
             android:layout_height="423dp"
-            android:src="@drawable/veggies_basket" />
+            android:src="@drawable/bees_small" />
 
         <Button
             android:id="@+id/btn_findoutmore"

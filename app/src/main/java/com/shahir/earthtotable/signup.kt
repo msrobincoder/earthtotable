@@ -14,7 +14,7 @@ class signupActivity : AppCompatActivity() {
 
         // set listener for signup button to go to next screen
         btn_signup.setOnClickListener {
-            val intent = Intent(this, findoutmoreActivity::class.java)
+            val intent = Intent(this, registerActivity::class.java)
             startActivity(intent)
         }
     }
